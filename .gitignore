@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# KiCad lock files (active session only)
+*.lck
+~*.lck
