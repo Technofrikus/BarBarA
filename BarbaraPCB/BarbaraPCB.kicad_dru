@@ -1,0 +1,13 @@
+(version 1)
+(rule "Allow Switch Overlap"
+    (constraint courtyard_clearance (min -1mm))
+    (condition "A.Reference == 'SW*' && B.Reference == 'SW*'"))
+(rule "Ignore Silk on Edge"
+    (constraint edge_clearance (min -1mm))
+    (condition "A.Layer == '*.SilkS'"))
+(rule "Allow Overlapping Holes"
+    (constraint hole_to_hole (min -1mm))
+    (condition "A.Reference == 'SW*' && B.Reference == 'SW*'"))
+(rule "Allow Overlapping Switch Holes"
+    (constraint hole_clearance (min -1mm))
+    (condition "A.Reference == 'SW*' && B.Reference == 'SW*'"))
