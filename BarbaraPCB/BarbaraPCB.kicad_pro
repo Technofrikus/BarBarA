@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|74133393|129325000|4a618386-0dd9-49a3-80a3-bb02744116c5|c4fe91ae-bd05-4ae5-9c81-f8669c31f5a6",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -666,7 +661,7 @@
         "uuid": "f05cd5b9-eb46-403c-a9c9-387875c5d923"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J5",
     "variants": []
   },
   "sheets": [
